@@ -48,5 +48,13 @@ public class EventTest {
         assertEquals(race1, event.findWinner());
     }
 
+    @Test
+    public void canAddToHallOfFame() {
+        event.addToHallOfFame(driver);
+        event.addToHallOfFame(navigator);
+        event.addToHallOfFame(eventCar);
+        assertEquals(3, event.countHallOfFame());
+    }
+
 
 }

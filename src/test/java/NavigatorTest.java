@@ -29,4 +29,9 @@ public class NavigatorTest {
     public void navigatorCanUseMap(){
         assertEquals("I'm using a map...", navigator.useMap());
     }
+
+    @Test
+    public void canInaugurate() {
+        assertEquals("You have entered the Hall of Fame", navigator.inaugurate());
+    }
 }

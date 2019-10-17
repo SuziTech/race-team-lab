@@ -28,4 +28,9 @@ public class DriverTest {
 //        assertEquals("I'm racing ...", driver.race());
 //    }
 
+    @Test
+    public void canInaugurate() {
+        assertEquals("You have entered the Hall of Fame", driver.inaugurate());
+    }
+
 }

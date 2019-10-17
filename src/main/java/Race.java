@@ -1,6 +1,5 @@
 import events.Circuit;
 import people.Driver;
-import people.IRace;
 import people.Navigator;
 import raceCars.EventCar;
 
