@@ -1,6 +1,6 @@
 package events;
 
-public abstract class Circuit {
+public class Circuit {
 
     private String route;
 

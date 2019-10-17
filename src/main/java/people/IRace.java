@@ -1,5 +1,7 @@
 package people;
 
 public interface IRace {
-    String
+    double race(double endTime, double startTime);
+
+
 }

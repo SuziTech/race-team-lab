@@ -23,4 +23,9 @@ public class DriverTest {
         assertEquals("I'm Driving...", driver.ride());
     }
 
+//    @Test
+//    public void driverCanRace() {
+//        assertEquals("I'm racing ...", driver.race());
+//    }
+
 }
