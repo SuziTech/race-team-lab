@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b46863a-2e2e-4c2b-b15a-9d1bc0938ba3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Race.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RaceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EventTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/events/Circuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/events/Circuit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/people/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/people/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Race.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Race.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/people/IRace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/people/IRace.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DriverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DriverTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/people/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/people/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/DriverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DriverTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RaceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,15 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/people/CarCrew.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/people/Driver.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -57,10 +43,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Race.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+            <state relative-caret-position="158">
+              <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
+                <element signature="e#825#826#0" expanded="true" />
+                <element signature="e#723#724#0" expanded="true" />
                 <element signature="e#752#753#0" expanded="true" />
                 <element signature="e#791#792#0" expanded="true" />
                 <element signature="e#823#824#0" expanded="true" />
@@ -73,11 +62,39 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Event.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+              <folding>
+                <element signature="e#131#137#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/EventTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/RaceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+            <state relative-caret-position="320">
+              <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#688#689#0" expanded="true" />
@@ -120,15 +137,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/NavigatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/people/Navigator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -140,8 +148,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/people/IRace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            <state relative-caret-position="60">
+              <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -162,12 +170,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/people/IRace.java" />
         <option value="$PROJECT_DIR$/src/main/java/events/Circuit.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Race.java" />
         <option value="$PROJECT_DIR$/src/main/java/people/Driver.java" />
         <option value="$PROJECT_DIR$/src/test/java/DriverTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Race.java" />
         <option value="$PROJECT_DIR$/src/test/java/RaceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/people/IRace.java" />
+        <option value="$PROJECT_DIR$/src/test/java/EventTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Event.java" />
       </list>
     </option>
   </component>
@@ -278,12 +288,42 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RaceTest.canRace">
+  <component name="RunManager" selected="JUnit.EventTest.canFindWinner">
+    <configuration name="EventTest.canFindWinner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RaceTeamLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EventTest" />
+      <option name="METHOD_NAME" value="canFindWinner" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventTest.canRecordRaces" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RaceTeamLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EventTest" />
+      <option name="METHOD_NAME" value="canRecordRaces" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RaceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RaceTeamLab" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RaceTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RaceTest.canCalculateDuration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RaceTeamLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RaceTest" />
+      <option name="METHOD_NAME" value="canCalculateDuration" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -298,43 +338,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RaceTest.hasDriver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RaceTeamLab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RaceTest" />
-      <option name="METHOD_NAME" value="hasDriver" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RaceTest.hasEventCar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RaceTeamLab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RaceTest" />
-      <option name="METHOD_NAME" value="hasEventCar" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RaceTest.hasNavigator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RaceTeamLab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RaceTest" />
-      <option name="METHOD_NAME" value="hasNavigator" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EventTest.canFindWinner" />
+        <item itemvalue="JUnit.EventTest.canRecordRaces" />
+        <item itemvalue="JUnit.RaceTest.canCalculateDuration" />
         <item itemvalue="JUnit.RaceTest.canRace" />
         <item itemvalue="JUnit.RaceTest" />
-        <item itemvalue="JUnit.RaceTest.hasEventCar" />
-        <item itemvalue="JUnit.RaceTest.hasNavigator" />
-        <item itemvalue="JUnit.RaceTest.hasDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -352,12 +362,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DriverTest - 2019.10.17 at 10h 47m 35s.xml">
-      <configuration name="DriverTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DriverTest - 2019.10.17 at 10h 48m 14s.xml">
-      <configuration name="DriverTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RaceTest_hasDriver - 2019.10.17 at 11h 47m 18s.xml">
       <configuration name="RaceTest.hasDriver" configurationId="JUnit" />
     </history-entry>
@@ -378,6 +382,15 @@
     </history-entry>
     <history-entry file="RaceTest_canRace - 2019.10.17 at 11h 56m 57s.xml">
       <configuration name="RaceTest.canRace" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventTest_canRecordRaces - 2019.10.17 at 13h 29m 47s.xml">
+      <configuration name="EventTest.canRecordRaces" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RaceTest_canCalculateDuration - 2019.10.17 at 13h 47m 34s.xml">
+      <configuration name="RaceTest.canCalculateDuration" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventTest_canRecordRaces - 2019.10.17 at 14h 02m 00s.xml">
+      <configuration name="EventTest.canRecordRaces" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -478,13 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/raceCars/EventCar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="80" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/events/Circuit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -495,13 +501,6 @@
             <element signature="e#165#166#0" expanded="true" />
             <element signature="e#198#199#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/people/IRace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -526,27 +525,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Race.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RaceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
+        <state relative-caret-position="320">
+          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#688#689#0" expanded="true" />
@@ -559,6 +541,64 @@
             <element signature="e#1023#1024#0" expanded="true" />
             <element signature="e#1088#1089#0" expanded="true" />
             <element signature="e#1118#1119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/people/IRace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/raceCars/EventCar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="80" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Race.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#723#724#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#823#824#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+          <folding>
+            <element signature="e#131#137#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EventTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

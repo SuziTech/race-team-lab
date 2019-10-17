@@ -1,33 +1,41 @@
 import events.Circuit;
-import people.CarCrew;
 import people.Driver;
 import people.IRace;
 import people.Navigator;
-import raceCars.Cars;
 import raceCars.EventCar;
 
-public class Race implements IRace {
+public class Race {
 
     private Driver driver;
     private Navigator navigator;
     private Circuit circuit;
     private EventCar eventCar;
+    private double endTime;
+    private double startTime;
 
-    public Race(Driver driver, Navigator navigator, Circuit circuit, EventCar eventCar) {
+
+
+    public Race(Driver driver, Navigator navigator, Circuit circuit, EventCar eventCar, double endTime, double startTime) {
         this.driver = driver;
         this.navigator = navigator;
         this.circuit = circuit;
         this.eventCar = eventCar;
+        this.endTime = endTime;
+        this.startTime = startTime;
+//        HashMap<String, Double> raceTimes = new HashMap<String, Double>();
     }
 
-    public double race(double endTime, double startTime) {
+//    public double race(double endTime, double startTime) {
+//        double duration = endTime - startTime;
+//        return duration;
+//    }
 
-
-
-        double duration = endTime - startTime;
-
-        return duration;
+    public double calculateDuration() {
+        return this.endTime - this.startTime;
     }
+
+
+
 
     public Driver getDriver() {
         return driver;
@@ -44,4 +52,6 @@ public class Race implements IRace {
     public EventCar getEventCar() {
         return eventCar;
     }
+
+
 }

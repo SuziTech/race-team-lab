@@ -23,7 +23,7 @@ public class RaceTest {
         navigator = new Navigator( "Mary", 1);
         eventCar = new EventCar("22", "RAC", 100 , 75);
         circuit = new Circuit("Esholt");
-        race = new Race(driver, navigator, circuit, eventCar);
+        race = new Race(driver, navigator, circuit, eventCar, 15.40, 15.25);
     }
 
     @Test
@@ -47,7 +47,9 @@ public class RaceTest {
     }
 
     @Test
-    public void canRace() {
-        assertEquals(0.15, race.race(15.40, 15.25), 0.01);
+    public void canCalculateDuration() {
+        assertEquals(0.15, race.calculateDuration(), 0.01);
     }
+
+
 }
